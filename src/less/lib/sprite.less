@@ -1,0 +1,198 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@s-bottom-arrow-name: 's-bottom-arrow';
+@s-bottom-arrow-x: 281px;
+@s-bottom-arrow-y: 65px;
+@s-bottom-arrow-offset-x: -281px;
+@s-bottom-arrow-offset-y: -65px;
+@s-bottom-arrow-width: 10px;
+@s-bottom-arrow-height: 50px;
+@s-bottom-arrow-total-width: 342px;
+@s-bottom-arrow-total-height: 263px;
+@s-bottom-arrow-image: 'sprite.png';
+@s-bottom-arrow: 281px 65px -281px -65px 10px 50px 342px 263px '../image/sprite/sprite.png' 's-bottom-arrow';
+@s-call-name: 's-call';
+@s-call-x: 125px;
+@s-call-y: 0px;
+@s-call-offset-x: -125px;
+@s-call-offset-y: 0px;
+@s-call-width: 80px;
+@s-call-height: 80px;
+@s-call-total-width: 342px;
+@s-call-total-height: 263px;
+@s-call-image: 'sprite.png';
+@s-call: 125px 0px -125px 0px 80px 80px 342px 263px '../image/sprite/sprite.png' 's-call';
+@s-ie-shop-name: 's-ie_shop';
+@s-ie-shop-x: 85px;
+@s-ie-shop-y: 125px;
+@s-ie-shop-offset-x: -85px;
+@s-ie-shop-offset-y: -125px;
+@s-ie-shop-width: 80px;
+@s-ie-shop-height: 72px;
+@s-ie-shop-total-width: 342px;
+@s-ie-shop-total-height: 263px;
+@s-ie-shop-image: 'sprite.png';
+@s-ie-shop: 85px 125px -85px -125px 80px 72px 342px 263px '../image/sprite/sprite.png' 's-ie_shop';
+@s-money-name: 's-money';
+@s-money-x: 210px;
+@s-money-y: 0px;
+@s-money-offset-x: -210px;
+@s-money-offset-y: 0px;
+@s-money-width: 66px;
+@s-money-height: 80px;
+@s-money-total-width: 342px;
+@s-money-total-height: 263px;
+@s-money-image: 'sprite.png';
+@s-money: 210px 0px -210px 0px 66px 80px 342px 263px '../image/sprite/sprite.png' 's-money';
+@s-ok-send-name: 's-ok_send';
+@s-ok-send-x: 0px;
+@s-ok-send-y: 0px;
+@s-ok-send-offset-x: 0px;
+@s-ok-send-offset-y: 0px;
+@s-ok-send-width: 120px;
+@s-ok-send-height: 120px;
+@s-ok-send-total-width: 342px;
+@s-ok-send-total-height: 263px;
+@s-ok-send-image: 'sprite.png';
+@s-ok-send: 0px 0px 0px 0px 120px 120px 342px 263px '../image/sprite/sprite.png' 's-ok_send';
+@s-reklams-name: 's-reklams';
+@s-reklams-x: 0px;
+@s-reklams-y: 125px;
+@s-reklams-offset-x: 0px;
+@s-reklams-offset-y: -125px;
+@s-reklams-width: 80px;
+@s-reklams-height: 80px;
+@s-reklams-total-width: 342px;
+@s-reklams-total-height: 263px;
+@s-reklams-image: 'sprite.png';
+@s-reklams: 0px 125px 0px -125px 80px 80px 342px 263px '../image/sprite/sprite.png' 's-reklams';
+@s-right-arrow-name: 's-right-arrow';
+@s-right-arrow-x: 281px;
+@s-right-arrow-y: 120px;
+@s-right-arrow-offset-x: -281px;
+@s-right-arrow-offset-y: -120px;
+@s-right-arrow-width: 50px;
+@s-right-arrow-height: 10px;
+@s-right-arrow-total-width: 342px;
+@s-right-arrow-total-height: 263px;
+@s-right-arrow-image: 'sprite.png';
+@s-right-arrow: 281px 120px -281px -120px 50px 10px 342px 263px '../image/sprite/sprite.png' 's-right-arrow';
+@s-send-name: 's-send';
+@s-send-x: 0px;
+@s-send-y: 210px;
+@s-send-offset-x: 0px;
+@s-send-offset-y: -210px;
+@s-send-width: 80px;
+@s-send-height: 53px;
+@s-send-total-width: 342px;
+@s-send-total-height: 263px;
+@s-send-image: 'sprite.png';
+@s-send: 0px 210px 0px -210px 80px 53px 342px 263px '../image/sprite/sprite.png' 's-send';
+@s-video-sl-l-name: 's-video_sl_l';
+@s-video-sl-l-x: 210px;
+@s-video-sl-l-y: 85px;
+@s-video-sl-l-offset-x: -210px;
+@s-video-sl-l-offset-y: -85px;
+@s-video-sl-l-width: 61px;
+@s-video-sl-l-height: 60px;
+@s-video-sl-l-total-width: 342px;
+@s-video-sl-l-total-height: 263px;
+@s-video-sl-l-image: 'sprite.png';
+@s-video-sl-l: 210px 85px -210px -85px 61px 60px 342px 263px '../image/sprite/sprite.png' 's-video_sl_l';
+@s-video-sl-r-name: 's-video_sl_r';
+@s-video-sl-r-x: 281px;
+@s-video-sl-r-y: 0px;
+@s-video-sl-r-offset-x: -281px;
+@s-video-sl-r-offset-y: 0px;
+@s-video-sl-r-width: 61px;
+@s-video-sl-r-height: 60px;
+@s-video-sl-r-total-width: 342px;
+@s-video-sl-r-total-height: 263px;
+@s-video-sl-r-image: 'sprite.png';
+@s-video-sl-r: 281px 0px -281px 0px 61px 60px 342px 263px '../image/sprite/sprite.png' 's-video_sl_r';
+@spritesheet-width: 342px;
+@spritesheet-height: 263px;
+@spritesheet-image: 'sprite.png';
+@spritesheet-sprites: @s-bottom-arrow @s-call @s-ie-shop @s-money @s-ok-send @s-reklams @s-right-arrow @s-send @s-video-sl-l @s-video-sl-r;
+@spritesheet: 342px 263px 'sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
